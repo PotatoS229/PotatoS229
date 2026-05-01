@@ -1,91 +1,56 @@
-# PotatoS229 · Low-level сетевой разработчик
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=38BDF8&center=true&vCenter=true&width=500&lines=PotatoS229;Low-level+сетевой+разработчик" alt="Typing SVG" />
+</div>
 
-[![GitHub followers](https://img.shields.io/github/followers/PotatoS229?style=social)](https://github.com/PotatoS229)
+<div align="center">
+  <img src="https://img.shields.io/badge/🚀_Старт_в_18-Biforcom_Tech-1e2a3a?style=for-the-badge&logo=rocket&color=0a0c10" />
+  <img src="https://img.shields.io/badge/📡_fullstack→_системный_программист-0f172a?style=for-the-badge&logo=code&color=0a0c10" />
+</div>
 
-**Системный программист, специализирующийся на низкоуровневых сетях, обходе цензуры и разработке ядра.**
+## 💻 Инструменты & стек
 
----
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=flat-square&logo=electron&logoColor=9FEAF9)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-## 🚀 О себе
+**В фокусе сейчас:**
+- 🔥 Обход DPI на уровне ядра (Windows / Linux)
+- 📦 Низкоуровневая работа с сетевыми пакетами
+- 🧠 Интеграция ML-моделей в Electron
+- ⚡ Асинхронный I/O и оптимизация memory footprint
 
-Попал в IT в **18 лет в компанию Бифорком тек (Biforcom Tech)**, где начинал как младший fullstack-разработчик и участвовал в одном из ключевых проектов компании.
+## 🎯 Ключевой проект: UDPilot
 
-Сейчас я — **начинающий системный программист**, специализируюсь на **сетевых технологиях низкого уровня**, пишу на C/C++, JS/TS, Electron и работаю с ядром (Linux/Windows). Разрабатываю инструменты для обхода DPI и сетевой цензуры.
+[![UDPilot](https://img.shields.io/badge/🚀_UDPilot-обход_DPI_на_уровне_ядра-orange?style=for-the-badge&logo=github)](https://github.com/PotatoS229/UDPilot)
 
-*   **Путь в IT:** fullstack → системный программист
-*   **Основной фокус:** kernel / network dev
-
----
-
-## 🛠 Инструменты и стек
-
-**Основные технологии:**
-`JavaScript/TS` · `React` · `Electron` · `C / C++` · `Node.js` · `Bash` · `Docker`
-
-**Системное программирование:**
-`Kernel Modules` · `Raw Sockets` · `eBPF` · `Netfilter / XDP` (Linux) · `Windows Filtering Platform` (WFP)
-
-**Машинное обучение:**
-`TensorFlowJS`
-
-### 🎯 В фокусе сейчас:
-
-- Обход DPI на уровне ядра (Windows / Linux)
-- Низкоуровневая работа с сетевыми пакетами
-- Интеграция ML-моделей (TensorFlowJS) в Electron для анализа трафика
-- Асинхронный I/O и оптимизация memory footprint
-
----
-
-## ⚛️ OS Dev · Долгосрочная цель
-
-Разрабатываю собственную **Linux-подобную ОС** с фокусом на сетевую производительность и минимализм. В процессе изучения:
-
-- Загрузчики (GRUB / Limine)
-- Управление памятью и страничная организация
-- Планировщик задач
-- Сетевой стек с нуля (драйверы, DMA, прерывания)
-
-> «От обхода DPI до собственного микроядра — системный подход»
-
----
-
-## 🌟 Ключевой проект: UDPilot
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=PotatoS229&repo=UDPilot&theme=dark)](https://github.com/PotatoS229/UDPilot)
-
-**UDPilot** — инструмент на базе **Electron, TensorFlowJS и C/C++** для обхода систем глубокого анализа пакетов (DPI) и цензуры.
+> **Инструмент на базе Electron, TensorFlowJS и C/C++ для обхода DPI и цензуры**
 
 **Архитектура:**
-- **Фронтенд:** React + ML-модель для детекции DPI-признаков
-- **Бэкенд:** Node.js с нативными модулями на C/C++
-- **Ядро:** Работа с сетевым стеком через raw-сокеты и kernel-хуки
-- **ML:** Активное использование TensorFlowJS для классификации паттернов трафика в рантайме
+- Frontend: React + ML (TensorFlowJS)
+- Backend: Node.js + нативные C++ addons
+- Kernel: Netfilter/XDP (Linux) + WFP (Windows)
+- Техники: фрагментация, обфускация, ML-классификация
 
-**Платформы:** `Windows` (WFP) · `Linux` (Netfilter/XDP)
+## 🧠 OS Dev (долгосрочная цель)
 
-**Техники обхода:** Фрагментация, обфускация, ML-классификация для маскировки потоков.
+Разрабатываю собственную Linux-подобную ОС с фокусом на сетевую производительность:
 
----
-
-## 🐞 Low-level инженерия сетей
-
-Изучаю структуру Ethernet/IP/TCP/UDP до битов, пишу kernel модули для перехвата и модификации пакетов. Экспериментирую с XDP и eBPF на Linux, Reverse Engineering сетевых драйверов.
-
-- `zero-copy`
-- `packet interception`
-- `memory safety`
+- 🔧 Загрузчики (GRUB / Limine)
+- 📚 Управление памятью и страничная организация
+- ⏱️ Планировщик задач
+- 🌐 Сетевой стек с нуля
 
 ---
 
-## 📫 Контакты
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=PotatoS229&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0c10&icon_color=38bdf8&title_color=7dd3fc" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PotatoS229&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0c10&title_color=7dd3fc" />
+</div>
 
-- **GitHub:** [@PotatoS229](https://github.com/PotatoS229)
-- **Telegram:** low-level network dev
-- **Стек:** `C++23` · `Electron` · `Kernel space`
-
----
-
-**Biforcom Tech** · fullstack → core systems
-**UDPilot:** обход DPI с ML + ядро
-**Цель:** собственная ОС с продвинутым сетевым стеком
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=PotatoS229&label=Profile%20views&color=0e75b6&style=flat" alt="views" />
+  <a href="https://t.me/your_telegram">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white" />
+  </a>
+</div>
