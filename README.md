@@ -1,4 +1,3 @@
-```markdown
 # PotatoS229 · Low-level сетевой разработчик
 
 [![GitHub followers](https://img.shields.io/github/followers/PotatoS229?style=social)](https://github.com/PotatoS229)
@@ -90,4 +89,3 @@
 **Biforcom Tech** · fullstack → core systems
 **UDPilot:** обход DPI с ML + ядро
 **Цель:** собственная ОС с продвинутым сетевым стеком
-```
