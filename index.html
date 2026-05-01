@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>PotatoS229 · Low-level сетевой разработчик | UDPilot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0a0c10 0%, #020408 100%);
+            color: #eef2ff;
+            display: flex;
+            justify-content: center;
+            padding: 2rem 1.5rem;
+            line-height: 1.5;
+        }
+
+        .profile-container {
+            max-width: 1100px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        /* hero section */
+        .hero {
+            background: rgba(8, 12, 20, 0.85);
+            backdrop-filter: blur(4px);
+            border-radius: 2rem;
+            padding: 2rem 2rem 2rem 2.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(56, 189, 248, 0.25);
+            box-shadow: 0 25px 40px -15px rgba(0, 0, 0, 0.6);
+            transition: all 0.2s;
+        }
+
+        .hero-header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .badge-early {
+            background: linear-gradient(135deg, #1a2a3a, #0f1a24);
+            color: #7dd3fc;
+            border-radius: 40px;
+            padding: 0.4rem 1.2rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border-left: 3px solid #38bdf8;
+        }
+
+        .company-badge {
+            background: #0f172ae6;
+            border-radius: 40px;
+            padding: 0.4rem 1.2rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            backdrop-filter: blur(2px);
+        }
+
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #FFFFFF 20%, #7dd3fc 60%, #38bdf8 90%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin: 0.5rem 0 0.25rem;
+        }
+
+        .tagline {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            border-left: 3px solid #38bdf8;
+            padding-left: 1rem;
+            margin: 0.75rem 0 1rem;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.8rem;
+            margin: 2rem 0;
+        }
+
+        .card {
+            background: #0b0f18e6;
+            backdrop-filter: blur(2px);
+            border-radius: 1.8rem;
+            padding: 1.6rem;
+            border: 1px solid #1f2a44;
+            transition: all 0.25s ease;
+        }
+
+        .card:hover {
+            border-color: #3b82f6;
+            transform: translateY(-4px);
+            box-shadow: 0 12px 25px -10px rgba(56, 189, 248, 0.2);
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 2px dashed #1e2a4a;
+            padding-bottom: 0.5rem;
+        }
+
+        .card h3 i {
+            color: #38bdf8;
+            font-size: 1.4rem;
+        }
+
+        .skill-badge {
+            background: #111827;
+            border-radius: 30px;
+            padding: 0.4rem 1rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: inline-block;
+            margin: 0.3rem 0.4rem;
+            border: 1px solid #2d3e6e;
+            transition: 0.1s;
+        }
+
+        .skill-badge i {
+            margin-right: 5px;
+        }
+
+        .project-highlight {
+            background: linear-gradient(145deg, #0a0f1c, #030712);
+            border-radius: 1.8rem;
+            padding: 1.8rem;
+            margin: 2rem 0;
+            border: 1px solid #f97316;
+            box-shadow: 0 0 15px rgba(249, 115, 22, 0.1);
+        }
+
+        .project-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+
+        .project-title i {
+            font-size: 2rem;
+            color: #f97316;
+        }
+
+        .github-link {
+            background: #1e293b;
+            padding: 0.4rem 1rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-family: monospace;
+        }
+
+        .tech-stack-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 1rem 0;
+        }
+
+        .footnote {
+            background: #03060e;
+            border-radius: 1rem;
+            padding: 0.75rem;
+            text-align: center;
+            font-size: 0.85rem;
+            border-left: 4px solid #f97316;
+        }
+
+        .stats-footer {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+            padding-top: 1.2rem;
+            font-size: 0.85rem;
+            color: #6b7280;
+            border-top: 1px solid #1f2a3e;
+        }
+
+        a {
+            color: #7aaef5;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #38bdf8;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            .hero { padding: 1.5rem; }
+            h1 { font-size: 2.2rem; }
+            .project-title { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="profile-container">
+    <!-- Hero: начало карьеры и суть -->
+    <div class="hero">
+        <div class="hero-header">
+            <div class="badge-early">
+                <i class="fas fa-rocket"></i> Старт в 18 · Biforcom Tech
+            </div>
+            <div class="company-badge">
+                <i class="fas fa-code-branch"></i> fullstack → системный программист
+            </div>
+        </div>
+        <h1>PotatoS229 <span style="font-weight: 500; color: #5f7f9e;">· kernel / network dev</span></h1>
+        <div class="tagline">
+            <i class="fas fa-microchip"></i> Системный программист · упор на низкоуровневые сети, обход censorship & ядро
+        </div>
+        <p style="max-width: 90%; margin-top: 0.8rem;">
+            Попал в IT в <strong>18 лет в компанию Бифорком тек (Biforcom Tech)</strong>, где начинал как младший fullstack-разработчик 
+            и участвовал в одном из ключевых проектов компании. Сейчас я — <strong>начинающий системный программист</strong>, 
+            специализируюсь на <strong>сетевых технологиях низкого уровня</strong>, пишу на C/C++, JS/TS, Electron и работаю с ядром (Linux/Windows).  
+            Разрабатываю инструменты для обхода DPI и сетевой цензуры на уровне ядра.
+        </p>
+    </div>
+
+    <!-- профильные карточки: технологии + основная цель -->
+    <div class="grid-2">
+        <div class="card">
+            <h3><i class="fas fa-toolbox"></i> Инструменты & стек</h3>
+            <div>
+                <span class="skill-badge"><i class="fab fa-js"></i> JavaScript/TS</span>
+                <span class="skill-badge"><i class="fab fa-react"></i> React</span>
+                <span class="skill-badge"><i class="fas fa-bolt"></i> Electron</span>
+                <span class="skill-badge"><i class="fab fa-docker"></i> Docker</span>
+                <span class="skill-badge"><i class="fas fa-code"></i> C / C++</span>
+                <span class="skill-badge"><i class="fas fa-terminal"></i> Bash</span>
+                <span class="skill-badge"><i class="fab fa-node-js"></i> Node.js</span>
+                <span class="skill-badge"><i class="fas fa-brain"></i> TensorFlowJS</span>
+                <span class="skill-badge"><i class="fas fa-microchip"></i> Kernel Modules</span>
+                <span class="skill-badge"><i class="fas fa-network-wired"></i> Raw Sockets / eBPF</span>
+            </div>
+            <div style="margin-top: 1.5rem;">
+                <h4 style="font-size: 1rem; margin-bottom: 10px;"><i class="fas fa-crosshairs"></i> В фокусе сейчас:</h4>
+                <ul style="padding-left: 1.5rem; color: #cbd5e6;">
+                    <li>Обход DPI на уровне ядра (Windows / Linux)</li>
+                    <li>Низкоуровневая работа с сетевыми пакетами</li>
+                    <li>Интеграция ML-моделей (TensorFlowJS) в Electron для анализа трафика</li>
+                    <li>Асинхронный I/O и оптимизация memory footprint</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3><i class="fas fa-flag-checkered"></i> OS Dev · долгосрочная цель</h3>
+            <p>Разрабатываю собственную <strong>Linux-подобную ОС</strong> с фокусом на сетевую производительность и минимализм. Изучаю:</p>
+            <ul style="margin: 0.8rem 0 0 1.2rem; color: #b9c7dd;">
+                <li>Загрузчики (GRUB / Limine)</li>
+                <li>Управление памятью и страничную организацию</li>
+                <li>Планировщик задач</li>
+                <li>Сетевой стек с нуля (драйверы, DMA, прерывания)</li>
+            </ul>
+            <div class="footnote" style="margin-top: 1.2rem;">
+                <i class="fas fa-microchip"></i> «От обхода DPI до собственного микроядра — системный подход»
+            </div>
+        </div>
+    </div>
+
+    <!-- главный проект: UDPilot -->
+    <div class="project-highlight">
+        <div class="project-title">
+            <i class="fas fa-satellite-dish"></i> 
+            <span>UDPilot — обход DPI на уровне ядра</span>
+            <a class="github-link" href="https://github.com/PotatoS229/UDPilot">
+                <span><i class="fab fa-github"></i> UDPilot</span>
+            </a>
+        </div>
+        <p style="font-size: 1.05rem; margin-bottom: 1rem;">
+            <strong>Ключевой пет-проект.</strong> UDPilot — инструмент на базе <strong>Electron, TensorFlowJS и C/C++</strong> для обхода 
+            систем глубокого анализа пакетов (DPI) и цензуры. Работает на уровне ядра <strong>Windows & Linux</strong>, 
+            анализирует трафик в реальном времени и применяет методы фрагментации, обфускации и ML-классификацию для 
+            маскировки потоков.
+        </p>
+        <div class="tech-stack-row">
+            <span class="skill-badge"><i class="fab fa-electron"></i> Electron + React</span>
+            <span class="skill-badge"><i class="fas fa-chart-line"></i> TensorFlowJS</span>
+            <span class="skill-badge"><i class="fas fa-code"></i> C++ addons</span>
+            <span class="skill-badge"><i class="fab fa-linux"></i> Netfilter / XDP</span>
+            <span class="skill-badge"><i class="fab fa-windows"></i> Windows Filtering Platform</span>
+            <span class="skill-badge"><i class="fas fa-shield-alt"></i> kernel bypass techniques</span>
+        </div>
+        <p style="margin-top: 1rem; font-size: 0.95rem; color: #bbd7fb;">
+            <i class="fas fa-cogs"></i> Архитектура: фронтенд на React + ML-модель для детекции DPI-признаков, 
+            бэкенд на Node.js с нативными модулями на C/C++, взаимодействующими с сетевым стеком через raw-сокеты и 
+            kernel-хуки. Активно использую <strong>TensorFlowJS</strong> для классификации паттернов трафика прямо в рантайме.
+        </p>
+    </div>
+
+    <!-- дополнительная секция про low-level сети -->
+    <div style="background: #05080f; border-radius: 1.8rem; padding: 1.7rem; margin: 1.5rem 0; border: 1px solid #2d3a5a;">
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+            <div>
+                <h3 style="display: flex; gap: 8px; align-items: center;"><i class="fas fa-bug" style="color: #f97316;"></i> Low‑level инженерия сетей</h3>
+                <p style="margin-top: 0.3rem;">Изучаю структуру Ethernet/IP/TCP/UDP до битов, пишу kernel модули для перехвата и модификации пакетов. Экспериментирую с XDP и eBPF на Linux, Reverse Engineering сетевых драйверов.</p>
+            </div>
+            <div style="background: #0f1422; border-radius: 1.2rem; padding: 0.6rem 1.2rem; text-align: center;">
+                <i class="fas fa-tachometer-alt"></i> zero-copy · packet interception · memory safety
+            </div>
+        </div>
+    </div>
+
+    <!-- контактная строка и соцсети -->
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin: 1rem 0 0.5rem;">
+        <span style="background: #0a0f1a; padding: 0.5rem 1.2rem; border-radius: 40px;"><i class="fab fa-github"></i> @PotatoS229</span>
+        <span style="background: #0a0f1a; padding: 0.5rem 1.2rem; border-radius: 40px;"><i class="fab fa-telegram"></i> low-level network dev</span>
+        <span style="background: #0a0f1a; padding: 0.5rem 1.2rem; border-radius: 40px;"><i class="fas fa-cube"></i> C++23 · Electron · Kernel space</span>
+    </div>
+
+    <div class="stats-footer">
+        <span><i class="far fa-building"></i> Biforcom Tech · fullstack → core systems</span>
+        <span><i class="fas fa-project-diagram"></i> UDPilot: обход DPI с ML + ядро</span>
+        <span><i class="fas fa-microchip"></i> цель: собственная ОС с продвинутым сетевых стеком</span>
+    </div>
+</div>
+</body>
+</html>
