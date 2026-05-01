@@ -1,56 +1,161 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=38BDF8&center=true&vCenter=true&width=500&lines=PotatoS229;Low-level+сетевой+разработчик" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0c10,100:1e2a3a&height=180&section=header&text=Biforcom%20Tech&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
+  
+  <br/>
+  
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=38BDF8&center=true&vCenter=true&width=600&lines=Fullstack+→+Systems+Programmer;Kernel-Level+Network+Engineer;OS+Development+Enthusiast;18+Years+Old+%7C+Open+Source" alt="Typing SVG" />
+  
+  <br/>
+  
+  <img src="https://img.shields.io/badge/🚀_Старт_в_18-Biforcom_Tech-1e2a3a?style=for-the-badge&logo=rocket&logoColor=white&color=0a0c10&labelColor=1e2a3a" />
+  <img src="https://img.shields.io/badge/📡_fullstack→_системный_программист-0f172a?style=for-the-badge&logo=code&logoColor=white&color=0a0c10&labelColor=1e2a3a" />
+  <img src="https://img.shields.io/badge/age-18-ff69b4?style=for-the-badge&logo=birthday&logoColor=white&color=0a0c10&labelColor=1e2a3a" />
 </div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/🚀_Старт_в_18-Biforcom_Tech-1e2a3a?style=for-the-badge&logo=rocket&color=0a0c10" />
-  <img src="https://img.shields.io/badge/📡_fullstack→_системный_программист-0f172a?style=for-the-badge&logo=code&color=0a0c10" />
-</div>
-
-## 💻 Инструменты & стек
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=flat-square&logo=electron&logoColor=9FEAF9)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-**В фокусе сейчас:**
-- 🔥 Обход DPI на уровне ядра (Windows / Linux)
-- 📦 Низкоуровневая работа с сетевыми пакетами
-- 🧠 Интеграция ML-моделей в Electron
-- ⚡ Асинхронный I/O и оптимизация memory footprint
-
-## 🎯 Ключевой проект: UDPilot
-
-[![UDPilot](https://img.shields.io/badge/🚀_UDPilot-обход_DPI_на_уровне_ядра-orange?style=for-the-badge&logo=github)](https://github.com/PotatoS229/UDPilot)
-
-> **Инструмент на базе Electron, TensorFlowJS и C/C++ для обхода DPI и цензуры**
-
-**Архитектура:**
-- Frontend: React + ML (TensorFlowJS)
-- Backend: Node.js + нативные C++ addons
-- Kernel: Netfilter/XDP (Linux) + WFP (Windows)
-- Техники: фрагментация, обфускация, ML-классификация
-
-## 🧠 OS Dev (долгосрочная цель)
-
-Разрабатываю собственную Linux-подобную ОС с фокусом на сетевую производительность:
-
-- 🔧 Загрузчики (GRUB / Limine)
-- 📚 Управление памятью и страничная организация
-- ⏱️ Планировщик задач
-- 🌐 Сетевой стек с нуля
 
 ---
 
+## 💻 Технологический стек
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PotatoS229&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0c10&icon_color=38bdf8&title_color=7dd3fc" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PotatoS229&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0c10&title_color=7dd3fc" />
+  
+  <!-- Языки -->
+  <h3>🎯 Языки программирования</h3>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=000000" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=00599C" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=3776AB" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=asm&logoColor=white" />
+  
+  <br/><br/>
+  
+  <!-- Фреймворки и инструменты -->
+  <h3>⚙️ Фреймворки & Инструменты</h3>
+  <img src="https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  
+  <br/><br/>
+  
+  <!-- Системное программирование -->
+  <h3>🐧 Системное программирование</h3>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Netfilter-000000?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/eBPF-2C3E50?style=for-the-badge&logo=ebpf&logoColor=white" />
+  <img src="https://img.shields.io/badge/WFP-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+</div>
+
+---
+
+## 🎯 Флагманский проект: UDPilot
+
+<div align="center">
+  <a href="https://github.com/PotatoS229/UDPilot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PotatoS229&repo=UDPilot&theme=tokyonight&hide_border=true&bg_color=0a0c10&title_color=7dd3fc&icon_color=38bdf8&description_lines_count=4" />
+  </a>
+</div>
+
+> ### 🚀 Инструмент для обхода DPI и интернет-цензуры на уровне ядра
+
+**Технический стек:**
+- **Frontend:** React + TensorFlowJS (ML классификация трафика)
+- **Backend:** Node.js + нативные C++ аддоны
+- **Kernel модули:** Netfilter/XDP (Linux) + WFP (Windows)
+- **Методы обхода:** фрагментация, обфускация, мультиплексирование
+
+**В разработке:**
+- 🧠 ML модель для динамического определения DPI
+- ⚡ XDP для обработки 10+ млн пакетов/сек
+- 🔄 Интеграция с Tor и I2P сетями
+
+---
+
+## 🔬 Текущие исследования
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/🔥-Обход_DPI_на_уровне_ядра-red?style=flat-square" />
+        <br/>
+        <sub>Windows (WFP) / Linux (Netfilter)</sub>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/📦-Низкоуровневая_работа_с_пакетами-blue?style=flat-square" />
+        <br/>
+        <sub>Raw sockets, eBPF, XDP</sub>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/🧠-ML_в_Electron-purple?style=flat-square" />
+        <br/>
+        <sub>TensorFlowJS + native</sub>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/⚡-Асинхронный_I/O-green?style=flat-square" />
+        <br/>
+        <sub>io_uring, epoll, IOCP</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 💀 OS Development (долгосрочная цель)
+
+<div align="center">
+  <pre style="background: #0a0c10; padding: 15px; border-radius: 8px; color: #7dd3fc;">
+  <code>
+  ╔══════════════════════════════════════════════════════╗
+  ║     🏗️  Custom Linux-like Kernel (Rust + C)        ║
+  ╠══════════════════════════════════════════════════════╣
+  ║  ✓  Multiboot2 (GRUB/Limine)                        ║
+  ║  ✓  Paging & Memory Management                      ║
+  ║  ✓  Process Scheduler (Round-robin + Priority)      ║
+  ║  ⚡  Network Stack (TCP/IP from scratch)            ║
+  ║  🔄  Userspace (minimal libc + syscalls)            ║
+  ╚══════════════════════════════════════════════════════╝
+  </code>
+  </pre>
+</div>
+
+**Планы:**
+- 🔧 Поддержка SMP (многоядерность)
+- 📡 Zero-copy network processing
+- 🎮 Пространство пользователя с минимальными абстракциями
+
+---
+
+## 📈 Статистика активности
+
+<div align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=PotatoS229&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0c10&icon_color=38bdf8&title_color=7dd3fc&ring_color=38bdf8&include_all_commits=true&count_private=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PotatoS229&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0c10&title_color=7dd3fc&langs_count=8" />
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=PotatoS229&label=Profile%20views&color=0e75b6&style=flat" alt="views" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PotatoS229&theme=tokyonight&hide_border=true&background=0a0c10&stroke=38bdf8&ring=38bdf8&fire=38bdf8&currStreakNum=ffffff&sideNums=38bdf8&currStreakLabel=7dd3fc&sideLabels=7dd3fc" />
+</div>
+
+---
+
+## 🌐 Связь и активность
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=PotatoS229&label=👁️%20Profile%20views&color=38bdf8&style=for-the-badge" alt="views" />
+  
+  <br/>
+  
   <a href="https://t.me/your_telegram">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Telegram-@your_username-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1e2a3a" />
   </a>
+  
+  <a href="https://github.com/PotatoS229">
+    <img src="https://img.shields.io/badge/GitHub-PotatoS229-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1e2a3a" />
+  </a>
+  
+  <br/><br/>
+  
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e2a3a,100:0a0c10&height=100&section=footer" width="100%"/>
 </div>
