@@ -16,11 +16,11 @@
   
   <!-- Языки -->
   <h3>🎯 Языки программирования</h3>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=000000" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=00599C" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=3776AB" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=asm&logoColor=white" />
+    <img src="https://img.shields.io/badge/C/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=00599C" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=000000" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=3178C6" />
+    <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=asm&logoColor=white" />
+    <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=4EAA25" />
   
   <br/><br/>
   
@@ -48,8 +48,9 @@
 
 <div align="center">
   <a href="https://github.com/PotatoS229/UDPilot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PotatoS229&repo=UDPilot&theme=tokyonight&hide_border=true&bg_color=0a0c10&title_color=7dd3fc&icon_color=38bdf8&description_lines_count=4" />
+    <img src="https://opengraph.githubassets.com/1/PotatoS229/UDPilot" width="100%" />
   </a>
+  <br/>
 </div>
 
 > ### 🚀 Инструмент для обхода DPI и интернет-цензуры на уровне ядра
