@@ -140,7 +140,7 @@
   <br/>
   
   <a href="https://t.me/@PotatoS229">
-    <img src="https://img.shields.io/badge/Telegram-@your_username-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1e2a3a" />
+    <img src="https://img.shields.io/badge/Telegram-PotatoS229-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1e2a3a" />
   </a>
   
   <a href="https://github.com/PotatoS229">
