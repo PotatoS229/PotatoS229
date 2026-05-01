@@ -1,11 +1,7 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0c10,100:1e2a3a&height=180&section=header&text=Biforcom%20Tech&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
   
-  <br/>
-  
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=38BDF8&center=true&vCenter=true&width=600&lines=Fullstack+→+Systems+Programmer;Kernel-Level+Network+Engineer;OS+Development+Enthusiast;18+Years+Old+%7C+Open+Source" alt="Typing SVG" />
-  
-  <br/>
+
   
   <img src="https://img.shields.io/badge/🚀_Старт_в_18-Biforcom_Tech-1e2a3a?style=for-the-badge&logo=rocket&logoColor=white&color=0a0c10&labelColor=1e2a3a" />
   <img src="https://img.shields.io/badge/📡_fullstack→_системный_программист-0f172a?style=for-the-badge&logo=code&logoColor=white&color=0a0c10&labelColor=1e2a3a" />
@@ -129,10 +125,6 @@
 
 ## 📈 Статистика активности
 
-<div align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=PotatoS229&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0c10&icon_color=38bdf8&title_color=7dd3fc&ring_color=38bdf8&include_all_commits=true&count_private=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PotatoS229&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0c10&title_color=7dd3fc&langs_count=8" />
-</div>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=PotatoS229&theme=tokyonight&hide_border=true&background=0a0c10&stroke=38bdf8&ring=38bdf8&fire=38bdf8&currStreakNum=ffffff&sideNums=38bdf8&currStreakLabel=7dd3fc&sideLabels=7dd3fc" />
@@ -147,7 +139,7 @@
   
   <br/>
   
-  <a href="https://t.me/your_telegram">
+  <a href="https://t.me/@PotatoS229">
     <img src="https://img.shields.io/badge/Telegram-@your_username-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1e2a3a" />
   </a>
   
