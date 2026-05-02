@@ -48,7 +48,7 @@
 
 <div align="center">
   <a href="https://github.com/PotatoS229/ILPilot">
-    <img src="https://opengraph.githubassets.com/1/PotatoS229/UDPilot" width="100%" />
+    <img src="https://opengraph.githubassets.com/1/PotatoS229/ILPilot" width="100%" />
   </a>
   <br/>
 </div>
