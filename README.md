@@ -44,10 +44,10 @@
 
 ---
 
-## 🎯 Флагманский проект: UDPilot
+## 🎯 Флагманский проект: ILPilot
 
 <div align="center">
-  <a href="https://github.com/PotatoS229/UDPilot">
+  <a href="https://github.com/PotatoS229/ILPilot">
     <img src="https://opengraph.githubassets.com/1/PotatoS229/UDPilot" width="100%" />
   </a>
   <br/>
