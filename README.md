@@ -10,6 +10,36 @@
 
 ---
 
+## 🧑‍💻 Обо мне
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/🏥_Работа-Camtech-2a7a3a?style=for-the-badge&logo=hospital&logoColor=white&labelColor=0a0c10" />
+        <br/>
+        <sub>Разработка ПО для медицинского оборудования</sub>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/🎓_ВУЗ-МЭИ-cc0000?style=for-the-badge&logo=graduation-cap&logoColor=white&labelColor=0a0c10" />
+        <br/>
+        <sub>Высшее образование (программист)</sub>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/🧬_Медтехника-сертификат-0088cc?style=for-the-badge&logo=medical&logoColor=white&labelColor=0a0c10" />
+        <br/>
+        <sub>Профильное образование в сфере медтехники</sub>
+      </td>
+    </tr>
+  </table>
+  <p style="color:#7dd3fc;">
+    🚀 Совмещаю работу в <strong>Camtech</strong> (софт для диагностического оборудования) с учёбой в <strong>МЭИ</strong> на инженера-программиста.<br/>
+    ⚡ Свободное время посвящаю системному программированию, разработке ядра и исследованию методов обхода DPI.
+  </p>
+</div>
+
+---
+
 ## 💻 Технологический стек
 
 <div align="center">
