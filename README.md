@@ -50,7 +50,7 @@
 
   <div style="background: rgba(22,27,34,0.85); backdrop-filter: blur(8px); border-radius: 20px; padding: 22px; border: 1px solid #30363d; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
     <h3 style="color: #58a6ff; margin-top: 0;">⚡ Core</h3>
-    <img src="https://skillicons.dev/icons?i=c,cpp,rust,asm,bash&theme=dark&perline=5" alt="core languages" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,rust,bash&theme=dark&perline=5" alt="core languages" />
   </div>
 
   <div style="background: rgba(22,27,34,0.85); backdrop-filter: blur(8px); border-radius: 20px; padding: 22px; border: 1px solid #30363d; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
