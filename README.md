@@ -55,7 +55,7 @@
 
   <div style="background: rgba(22,27,34,0.85); backdrop-filter: blur(8px); border-radius: 20px; padding: 22px; border: 1px solid #30363d; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
     <h3 style="color: #58a6ff; margin-top: 0;">🌐 Fullstack</h3>
-    <img src="https://skillicons.dev/icons?i=ts,react,nodejs,electron,tensorflow&theme=dark&perline=5" alt="fullstack" />
+    <img src="https://skillicons.dev/icons?i=ts,react,nodejs,electron,tensorflow,tauri&theme=dark&perline=6" alt="fullstack" />
   </div>
 
   <div style="background: rgba(22,27,34,0.85); backdrop-filter: blur(8px); border-radius: 20px; padding: 22px; border: 1px solid #30363d; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
@@ -63,6 +63,13 @@
     <img src="https://skillicons.dev/icons?i=linux,docker,bash,netlify&theme=dark&perline=4" alt="system" />
     <br/>
     <span style="color: #8b949e; font-size: 0.85em;">Netfilter, XDP, WFP, eBPF</span>
+  </div>
+
+  <div style="background: rgba(22,27,34,0.85); backdrop-filter: blur(8px); border-radius: 20px; padding: 22px; border: 1px solid #30363d; box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
+    <h3 style="color: #58a6ff; margin-top: 0;">🖥️ Desktop</h3>
+    <img src="https://skillicons.dev/icons?i=tauri&theme=dark&perline=1" alt="tauri" />
+    <br/>
+    <span style="color: #8b949e; font-size: 0.9em;">Tauri · WebKitGTK · WebView2</span>
   </div>
 </div>
 
@@ -112,6 +119,10 @@
   <div style="background: #0d1117; border-radius: 18px; padding: 18px; border-bottom: 4px solid #3fb950; box-shadow: 0 4px 15px rgba(63,185,80,0.2);">
     <span style="color: #3fb950; font-weight: bold;">⚡ Async I/O mastery</span><br/>
     <span style="color: #8b949e; font-size: 0.9em;">io_uring, epoll, IOCP</span>
+  </div>
+  <div style="background: #0d1117; border-radius: 18px; padding: 18px; border-bottom: 4px solid #f0883e; box-shadow: 0 4px 15px rgba(240,136,62,0.2);">
+    <span style="color: #f0883e; font-weight: bold;">🖥️ Embedded browsers</span><br/>
+    <span style="color: #8b949e; font-size: 0.9em;">WebKitGTK · WebView2 · Tauri</span>
   </div>
 </div>
 
